@@ -112,7 +112,6 @@ def analyze_trees_trips():
     current, peak = tracemalloc.get_traced_memory()
     tracemalloc.stop()
     end = time.time()
-
     print(f"Memory: {current / 1024} KBs")
     print(f"Time elapsed: {end - start} seconds")
 
