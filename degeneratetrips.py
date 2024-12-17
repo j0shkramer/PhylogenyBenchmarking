@@ -27,7 +27,7 @@ class AdditivePhylogeny:
         return limb_length, limb_indices[0], limb_indices[1]
 
     def add_node_to_tree(self, adj, j, limb_length, i, k, x):
-        # Adds a new node when needed during the phylogenetic tree construction.
+        # Adds a new node when needed during the phylogenetic tree construction
         l = len(adj)
         dist = [float('inf')] * l
         parent = [-1] * l
