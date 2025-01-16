@@ -161,7 +161,7 @@ def analyze_trees_nj():
     # print(distance_matrix)
     matrix = NeighborJoining().dict_to_matrix(distance_matrix)
     print("This distance matrix is additive: ", NeighborJoining().is_additive(matrix))
-    # compute running time and space complexity
+    # compute the running time and space complexity
     start = time.time()
     tracemalloc.start()
     remade_tree = NeighborJoining().neighbor_join(distance_matrix)
