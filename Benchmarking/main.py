@@ -4,7 +4,7 @@ import time
 import tracemalloc
 import ngesh
 from degeneratetrips import AdditivePhylogeny
-from Benchmarking.neighborjoining import NeighborJoining
+from neighborjoining import NeighborJoining
 
 
 def build_distance_dict(tree):
